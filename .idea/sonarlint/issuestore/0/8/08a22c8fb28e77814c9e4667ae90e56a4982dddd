@@ -1,0 +1,10 @@
+
+9
+java:S1643""Use a StringBuilder instead.(óÆ°þ8ò“Ê„¿1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°‚‡âúÿÿÿÿ8ó“Ê„¿1
+]	java:S125"<This block of commented-out lines of code should be removed.(Åÿ üÿÿÿÿ8ÿ“Ê„¿1
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(¶µ•Õ8‚”Ê„¿1
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8‚”Ê„¿1
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8‚”Ê„¿1
