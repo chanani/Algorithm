@@ -1,4 +1,4 @@
-package inflearn;
+package inflearn.Q01;
 
 
 import java.util.*;
