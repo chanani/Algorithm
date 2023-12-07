@@ -1,0 +1,17 @@
+
+9
+java:S1643"Use a StringBuilder instead.(ò¾¢ì8ÍöıñÁ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†Š‰8òšüñÁ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åí™8ôœ•òÁ1
+G
+java:S1197
+"*Move the array designators [] to the type.(êáÒ8øšüñÁ1
+9
+java:S1116"Remove this empty statement.(­Ö‚Ñ8úšüñÁ1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ø¶í·8úšüñÁ1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ø¶í·8ûšüñÁ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‹ÌÊÃ8ìİüñÁ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ûšüñÁ1
