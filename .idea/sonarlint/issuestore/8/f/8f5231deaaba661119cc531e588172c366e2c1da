@@ -1,0 +1,9 @@
+
+t	java:S127)"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ó¹½¯8»æ–óÁ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ª›Ãıøÿÿÿÿ8»æ–óÁ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ§å8¼æ–óÁ1
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ8ç–óÁ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ç–óÁ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ğ‚šóÁ1
