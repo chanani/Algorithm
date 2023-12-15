@@ -1,6 +1,5 @@
 package inflearn.Q02;
 
-
 import java.util.*;
 
 public class Inflearn2_7 {
