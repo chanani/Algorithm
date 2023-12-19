@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Inflearn2_12 {
-    // 문제 링크 : https://cote.inflearn.com/contest/10/problem/03-1
+    // 문제 링크 : https://cote.inflearn.com/contest/10/problem/02-12
     public static int solution(int student, int test, int[][] arr) {
         int answer = 0;
 
