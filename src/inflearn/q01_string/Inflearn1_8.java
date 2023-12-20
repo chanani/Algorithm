@@ -1,4 +1,4 @@
-package inflearn.Q01;
+package inflearn.q01_string;
 
 import java.util.Scanner;
 

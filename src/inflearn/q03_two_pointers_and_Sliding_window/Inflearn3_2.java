@@ -1,4 +1,4 @@
-package inflearn.Q03;
+package inflearn.q03_two_pointers_and_Sliding_window;
 
 import java.util.ArrayList;
 import java.util.Arrays;

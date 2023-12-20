@@ -1,6 +1,5 @@
-package inflearn.Q01;
+package inflearn.q01_string;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Inflearn1_12 {

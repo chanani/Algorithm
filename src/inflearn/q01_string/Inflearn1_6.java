@@ -1,8 +1,6 @@
-package inflearn.Q01;
+package inflearn.q01_string;
 
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
 public class Inflearn1_6 {
 

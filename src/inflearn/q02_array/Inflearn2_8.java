@@ -1,7 +1,5 @@
-package inflearn.Q02;
+package inflearn.q02_array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Inflearn2_8 {
