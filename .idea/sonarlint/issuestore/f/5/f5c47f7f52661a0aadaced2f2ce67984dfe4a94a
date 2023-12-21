@@ -1,9 +1,0 @@
-
-’
-java:S1319<"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ßéöüÿÿÿÿ8Ç··•Ä1
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(å—õã8È··•Ä1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ§å8È··•Ä1
-]	java:S125
-"<This block of commented-out lines of code should be removed.(İùúşıÿÿÿÿ8Ó··•Ä1
-X	java:S125%"<This block of commented-out lines of code should be removed.(±îÁü8Ó··•Ä1
-U	java:S106V"9Replace this use of System.out or System.err by a logger.(·Š·£8×··•Ä1
