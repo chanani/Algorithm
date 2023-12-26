@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Inflearn4_4 {
 
-    // 문제 링크 : https://cote.inflearn.com/contest/10/problem/04-3
+    // 문제 링크 : https://cote.inflearn.com/contest/10/problem/04-4
     // 내가 작성한 코드
     /*public static int solution(String S, String T) {
         int answer = 0;
