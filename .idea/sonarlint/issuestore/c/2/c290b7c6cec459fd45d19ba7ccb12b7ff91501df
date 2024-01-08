@@ -1,0 +1,6 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Âß—ÿÿÿÿÿ8œ¸”¶Ê1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ­µåşÿÿÿÿ8¸”¶Ê1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ŞÅ´¨ûÿÿÿÿ8®¸”¶Ê1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8®¸”¶Ê1
