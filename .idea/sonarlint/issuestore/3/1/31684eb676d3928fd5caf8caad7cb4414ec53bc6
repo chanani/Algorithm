@@ -1,29 +1,0 @@
-
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‰µ¨8«ˆùÖ¿1
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¼èr8«ˆùÖ¿1
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÚÖô8«ˆùÖ¿1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š˜¼şÿÿÿÿ8«ˆùÖ¿1
-9
-java:S1643"Use a StringBuilder instead.(Ìå€ğ8«ˆùÖ¿1
->
-java:S1643"Use a StringBuilder instead.(±‹¤ûÿÿÿÿ8«ˆùÖ¿1
-9
-java:S1643"Use a StringBuilder instead.(Ìå€ğ8«ˆùÖ¿1
->
-java:S1643!"Use a StringBuilder instead.(±‹¤ûÿÿÿÿ8«ˆùÖ¿1
->
-java:S1643%"Use a StringBuilder instead.(±‹¤ûÿÿÿÿ8«ˆùÖ¿1
-9
-java:S1643'"Use a StringBuilder instead.(Ìå€ğ8«ˆùÖ¿1
->
-java:S1643)"Use a StringBuilder instead.(±‹¤ûÿÿÿÿ8«ˆùÖ¿1
-9
-java:S1643+"Use a StringBuilder instead.(Ìå€ğ8«ˆùÖ¿1
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ßÂúğıÿÿÿÿ8«ˆùÖ¿1
-o
-java:S3776
-"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(·‹µ‹8‡‰ùÖ¿1
-C	java:S131?""Add a default case to this switch.(³›¯°ùÿÿÿÿ8Š‰ùÖ¿1
-U	java:S106q"9Replace this use of System.out or System.err by a logger.(¸Ó·Ë8Š‰ùÖ¿1
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ÓèùÖ¿1
