@@ -31,3 +31,15 @@ q
 Asrc/inflearn/q03_two_pointers_and_Sliding_window/Inflearn3_3.java,a/b/ab6a71ed51ce80619790615cb831e0eae199d1a5
 ]
 -src/inflearn/q05_stack_queue/Inflearn5_1.java,6/6/66564d5b86cadaed78fde3343ff1977a7a2295d6
+]
+-src/inflearn/q05_stack_queue/Inflearn5_6.java,d/1/d1e356a95847a2b3716b7e13cac4947fa1d8b531
+]
+-src/inflearn/q05_stack_queue/Inflearn5_3.java,a/8/a822ff3971dedf4bd07101aa4c9a238ff2dbccea
+]
+-src/inflearn/q05_stack_queue/Inflearn5_5.java,5/9/59bc483ea8355958402e761f52cd0f36cf209d36
+e
+5src/inflearn/q05_stack_queue/Inflearn5_4_postfix.java,a/5/a529f12bfff28e34e6d6688df290c6424753fca3
+]
+-src/inflearn/q05_stack_queue/Inflearn5_2.java,2/5/250f608348ae39b247ee7eae738ca6e6ecb0c5d9
+]
+-src/inflearn/q05_stack_queue/Inflearn5_7.java,3/5/35a1094e2feb6ee663b861ac2f82c4b598a4df58
