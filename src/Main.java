@@ -1,25 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
-    //
-    public static long[] solution(int[][] fees, int t) {
-        long[] answer = {};
-
-
-
-
-
-
-
-        return answer;
-    }
-
-
-
     public static void main(String[] args) {
-        int[][] fees = {{4, 1000}, {6, 1000}, {21, 3000}, {16, 2000}, {26, 3000}};
-        int t = 27;
+        Scanner scan = new Scanner(System.in);
+        String s = "+1234";
 
-        for(long x : solution(fees, t)){
-            System.out.println(x);
-        }
+        if(s.matches("[0-9]+")) System.out.println(s);
+        else if (s.charAt(0) == '+') System.out.println(s.substring(1, s.length()));
+        else if (s.charAt(0) == '-') System.out.println(s);;
+
     }
 }

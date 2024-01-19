@@ -1,19 +1,0 @@
-
-{
-java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "answer".(Áı§œ8°÷’ÆÃ1
-7
-java:S1220""Move this file to a named package.8àûùÅÃ1
-T
-java:S1172
-"2Remove these unused method parameters "fees", "t".(„íÇ‘ùÿÿÿÿ8’Ø‘ÆÃ1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ8¸üùÅÃ1
-W
-java:S1128"5Remove this unused import 'inflearn.Q01.Inflearn1_1'.(©€™êşÿÿÿÿ8‰Ç“ÆÃ1
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ŠÇ“ÆÃ1
-T
-java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ŠÇ“ÆÃ1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ŠÇ“ÆÃ1
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ŠÇ“ÆÃ1
