@@ -1,13 +1,24 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String s = "+1234";
+        int n = scan.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) arr[i] = scan.nextInt();
 
-        if(s.matches("[0-9]+")) System.out.println(s);
-        else if (s.charAt(0) == '+') System.out.println(s.substring(1, s.length()));
-        else if (s.charAt(0) == '-') System.out.println(s);;
+        /*for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
+            }
+        }*/
+
+        Arrays.sort(arr);
+        for(int x : arr) System.out.println(x);
 
     }
 }
