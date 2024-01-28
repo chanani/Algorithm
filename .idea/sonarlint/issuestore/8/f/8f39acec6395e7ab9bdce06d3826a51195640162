@@ -1,0 +1,10 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŸÅ²§øÿÿÿÿ8‘ÚáÍÓ1
+J
+java:S1172""(Remove this unused method parameter "k".(Äï­»úÿÿÿÿ8¦ÚáÍÓ1
+W	java:S125"<This block of commented-out lines of code should be removed.(œÕĞ:8¦ÚáÍÓ1
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(–…ÖŞüÿÿÿÿ8©ÚáÍÓ1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8©ÚáÍÓ1
+J
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB8©ÚáÍÓ1

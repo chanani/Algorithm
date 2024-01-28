@@ -2,22 +2,18 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) arr[i] = scan.nextInt();
-        /*for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int tmp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = tmp;
-                }
-            }
-        }*/
+        // Scanner scan = new Scanner(System.in);
+        String s = "pPoooyY";
+        int p = 0, y = 0;
 
-        Arrays.sort(arr);
-        for(int x : arr) System.out.println(x);
+        for(char x : s.toLowerCase().toCharArray()){
+            if(x == 'p') p++;
+            else if(x == 'y') y++;
+        }
 
+        System.out.println("p : " + p);
+        System.out.println("y : " + y);
+        if(p != y) System.out.println("false");
+        else System.out.println("true");
     }
 }
