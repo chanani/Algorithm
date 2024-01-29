@@ -16,6 +16,5 @@ public class Inflearn7_9_Tree_짧은경로_DFS {
         root.lt.lt = new Node(4);
         root.lt.rt = new Node(5);
         System.out.println(DFS(0, root));
-
     }
 }
