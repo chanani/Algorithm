@@ -1,19 +1,41 @@
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
-        // Scanner scan = new Scanner(System.in);
-        String s = "pPoooyY";
-        int p = 0, y = 0;
+class Node {
+    int data;
+    Node lt, rt;
 
-        for(char x : s.toLowerCase().toCharArray()){
-            if(x == 'p') p++;
-            else if(x == 'y') y++;
-        }
-
-        System.out.println("p : " + p);
-        System.out.println("y : " + y);
-        if(p != y) System.out.println("false");
-        else System.out.println("true");
+    public Node(int val) {
+        this.data = val;
+        lt = rt = null;
     }
+}
+
+public class Main {
+
+    static int n;
+
+    public static void DFS(int m) {
+        if (n == m) return;
+        else {
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int k = scan.nextInt();
+        int node = 1;
+        int i = 0, j = 1;
+        while (i < k){
+            node += j * 2;
+            j *= 2;
+            i++;
+        }
+        int[] arr = new int[node];
+        for (int l = 0; l < node; l++) arr[i] = scan.nextInt();
+
+        DFS(0);
+    }
+
+
 }

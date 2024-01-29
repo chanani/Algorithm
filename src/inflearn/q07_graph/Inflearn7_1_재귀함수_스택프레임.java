@@ -9,7 +9,6 @@ public class Inflearn7_1_재귀함수_스택프레임 {
             DFS(n - 1);
             System.out.print(n + " ");
         }
-
     }
 
     public static void main(String[] args) {
