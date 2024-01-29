@@ -7,7 +7,7 @@ import java.util.Scanner;
 class Node2{
     int data;
     Node2 lt, rt;
-    public  Node2(int val){
+    public Node2(int val){
         data = val;
         lt = rt = null;
     }
