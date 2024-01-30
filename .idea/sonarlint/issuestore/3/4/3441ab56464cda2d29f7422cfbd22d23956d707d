@@ -1,0 +1,6 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷·‚Õûÿÿÿÿ8ŒëÎúÔ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú‡ßÁ8ëÎúÔ1
+8
+java:S3626"Remove this redundant jump.(¯™»ß8ëÎúÔ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±·ù©8‘ëÎúÔ1
