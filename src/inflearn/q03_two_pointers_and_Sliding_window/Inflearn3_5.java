@@ -33,7 +33,6 @@ public class Inflearn3_5 {
                 if (sum == n) answer++;
             }
         }
-
         return answer;
     }
 
@@ -42,6 +41,5 @@ public class Inflearn3_5 {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         System.out.println(solution(n));
-
     }
 }

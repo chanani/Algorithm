@@ -1,7 +1,7 @@
 
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ª›±8î†é¿È1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åÃÇå8î†é¿È1
-]	java:S125	"<This block of commented-out lines of code should be removed.(èÚŒ¨üÿÿÿÿ8ó†é¿È1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ª›±8ù ÐÖ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åÃÇå8ú ÐÖ1
+]	java:S125	"<This block of commented-out lines of code should be removed.(èÚŒ¨üÿÿÿÿ8Œ‚ ÐÖ1
 b
-java:S1659"@Declare "sum" and all following declarations on a separate line.(¢Œ‘Áùÿÿÿÿ8ŒÉáÔÈ1
-Z	java:S106,"9Replace this use of System.out or System.err by a logger.(Ì­ÌÇþÿÿÿÿ8õ†é¿È1
+java:S1659"@Declare "sum" and all following declarations on a separate line.(¢Œ‘Áùÿÿÿÿ8Œ‚ ÐÖ1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(Ì­ÌÇþÿÿÿÿ8Ž‚ ÐÖ1

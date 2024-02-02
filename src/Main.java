@@ -1,14 +1,16 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
 import java.util.*;
 
 public class Main {
 
-
     public static void main(String[] args) {
+        ArrayList<Character> list = new ArrayList<>();
+        String s = "asdf123!!///";
+        for (char x : s.toCharArray()) {
+        }
 
-        System.out.println(123 % 1234567);
+        String n = s.replaceAll("[]", "");
+        System.out.println(n);
 
     }
 }
