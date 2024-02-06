@@ -1,13 +1,0 @@
-
-7
-java:S1220""Move this file to a named package.8ì’‘ÒÖ1
-U
-java:S1854"8Remove this useless assignment to local variable "list".(î§Ä…8ï’‘ÒÖ1
-F
-java:S1481")Remove this unused "list" local variable.(î§Ä…8ğ’‘ÒÖ1
-H
-java:S1481	"&Remove this unused "x" local variable.(°Ë²Úøÿÿÿÿ8ğ’‘ÒÖ1
-J	java:S108	")Either remove or fill this block of code.(°Ë²Úøÿÿÿÿ8ğ’‘ÒÖ1
-D
-java:S5856"'Fix the syntax error inside this regex.(şÀã8„×›ÒÖ1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(†™ñ‹8ëÀ‘ÒÖ1
