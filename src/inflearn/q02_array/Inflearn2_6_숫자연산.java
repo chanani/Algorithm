@@ -3,7 +3,7 @@ package inflearn.q02_array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Inflearn2_6 {
+public class Inflearn2_6_숫자연산 {
 
     // 문제 링크 : https://cote.inflearn.com/contest/10/problem/02-06
     // 내가 작성한 코드

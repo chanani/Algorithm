@@ -1,0 +1,13 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÄÆá8²¿þä×1
+n	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜îíÜûÿÿÿÿ8³¿þä×1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰ØÆöûÿÿÿÿ8³¿þä×1
+`
+java:S1659">Declare "c" and all following declarations on a separate line.(î¹Í¡ûÿÿÿÿ8¸¿þä×1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÄÆá8¹¿þä×1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(ô¤„å8¼¿þä×1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8µâþä×1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8µâþä×1

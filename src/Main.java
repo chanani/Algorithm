@@ -1,54 +1,37 @@
 import java.util.*;
-import java.io.*;
 
 public class Main {
-    static int[] visit = new int[1000000001];
-    static int input, answer;
-    static Queue<Integer> Q = new LinkedList<>();
+    public static void main(String[] args) {
+        int answer = 0;
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int m = scan.nextInt();
+        int k = scan.nextInt();
+        int[][] arr = new int[n][m];
+        if(m < k) {
+            System.out.println(0);
+            return;
+        }
+        for (int i = 0; i < n; i++) {
+            String[] str = scan.next().split("");
+            for (int j = 0; j < m; j++) arr[i][j] = Integer.parseInt(str[j]);
+        }
 
-    public static void main(String[] args) throws IOException {
-        System.out.println(solution(5));
-    }
-
-    public static int solution(int n) {
-        input = n;
-        if (n == 0) return 0;
-        answer = BFS(0);
-        return answer;
-    }
-
-    public static int BFS(int v) {
-        Q.offer(v);
-        visit[v] = 1;
-        while (!Q.isEmpty()) {
-            int size = Q.size();
-            for (int i = 0; i < size; i++) {
-                int x = Q.poll();
-                for (int j = 0; j < 2; j++) {
-                    int nx;
-                    if (j == 0) {
-                        if (x == 0) continue;
-                        nx = x * 2;
-                        if (nx == input) return visit[x];
-                        else {
-                            if (visit[nx] == 0 && nx > 0 && nx <= 100000000) {
-                                visit[nx] = 1;
-                                Q.offer(nx);
-                            }
-                        }
-                    } else {
-                        nx = x + 1;
-                        if (nx == input) return visit[x];
-                        if (visit[nx] == 0 && nx > 0 && nx <= 100000000) {
-                            visit[nx] = visit[x] + 1;
-                            Q.offer(nx);
-                        }
-                    }
-
-                }
-
+        for (int i = 0; i < n; i++) {
+            int count = 0;
+            for (int j = 0; j < k; j++) {
+                if (arr[i][j] == 0) count++;
+            }
+            if (count >= k) answer++;
+            int lt = 0;
+            for (int l = k; l < m; l++) {
+                if (arr[i][l] == 0) count++;
+                if (arr[i][lt] == 0) count--;
+                if (count >= k) answer++;
+                lt++;
             }
         }
-        return 0;
+
+        System.out.println(answer);
     }
 }
