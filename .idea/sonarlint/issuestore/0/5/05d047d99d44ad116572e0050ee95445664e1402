@@ -1,9 +1,0 @@
-
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(υ―’Φÿÿÿÿÿ8½»ΚΥ1
->
-java:S1643"Use a StringBuilder instead.(ςΨαιÿÿÿÿÿ8½»ΚΥ1
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰ϊΤξύÿÿÿÿ8½»ΚΥ1
-o	java:S100
-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(υ―’Φÿÿÿÿÿ8Ε»ΚΥ1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(™µΗ™8Ζ»ΚΥ1

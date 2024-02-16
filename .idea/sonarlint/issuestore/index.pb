@@ -61,16 +61,12 @@ d
 4src/inflearn/q07_graph/Inflearn7_3_팩토리얼.java,4/1/41f17d9a377730951dfae943eeb98e7972211f51
 }
 Msrc/inflearn/q07_graph/Inflearn7_4_피보나치재귀_메모이제이션.java,9/8/98abc9598d826e766d475e7576348fce1caf3774
-n
->src/inflearn/q07_graph/Inflearn7_5_이진트리순회_DFS.java,b/e/beffb3ee9a6cddd52830f7e2e781bde3cb23cd98
 g
 7src/inflearn/q06_sorting_and_searching/Inflearn6_6.java,d/2/d27d8cc5e2ab5f81de22b113dad1257b4a054fbc
 m
 =src/inflearn/q07_graph/Inflearn7_9_Tree_짧은경로_DFS.java,6/8/68c67307f6ab0cae4fe2ccab76a5d62053ab54ad
 n
 >src/inflearn/q07_graph/Inflearn7_8_상태트리탐색_BFS.java,9/1/915e2fb1658f32263e1a63afac1d59280895da4f
-h
-8src/inflearn/q07_graph/Inflearn7_6_부분집합_DFS.java,0/5/05d047d99d44ad116572e0050ee95445664e1402
 
 Osrc/inflearn/q07_graph/Inflearn7_13_경로탐색_인접리스트_ArrayList.java,9/9/9971083740bc804c2a1d65083bb782ecb9777f63
 n
@@ -121,3 +117,7 @@ W
 'src/inflearn/q02_array/Inflearn2_4.java,d/a/da4e158c5eba5f841d3f7508c5afc33e621a46fb
 W
 'src/inflearn/q02_array/Inflearn2_5.java,b/3/b3394233d21165cc64554495f7650167a8be4173
+d
+4src/inflearn/q02_array/Inflearn2_6_숫자연산.java,1/d/1d6a92976dc3463ed05e829f07b64ca2b2a471f4
+v
+Fsrc/inflearn/q08_DFS_BFS/Inflearn8_1_합이같은부분집합_DFS.java,3/0/305fb30defcf31ae37a39efb4122f8fe2fd25ccd

@@ -1,37 +1,56 @@
 import java.util.*;
+import java.io.*;
 
 public class Main {
+    static int n, m, k, x;
+    static int[][] arr;
+    static boolean[] visit;
+    static Queue<Integer> Q = new LinkedList<>();
+
     public static void main(String[] args) {
-        int answer = 0;
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        int m = scan.nextInt();
-        int k = scan.nextInt();
-        int[][] arr = new int[n][m];
-        if(m < k) {
-            System.out.println(0);
-            return;
+        n = scan.nextInt();
+        m = scan.nextInt();
+        k = scan.nextInt();
+        x = scan.nextInt();
+        arr = new int[n + 1][n + 1];
+        visit = new boolean[n + 1];
+        for (int i = 1; i <= m; i++) {
+            int a = scan.nextInt();
+            int b = scan.nextInt();
+            arr[a][b] = 1;
         }
-        for (int i = 0; i < n; i++) {
-            String[] str = scan.next().split("");
-            for (int j = 0; j < m; j++) arr[i][j] = Integer.parseInt(str[j]);
+        BFS(x);
+        if (Q.size() == 0) {
+            System.out.println(-1);
+        } else {
+            int[] result = new int[Q.size()];
+            for (int i = 0; i <= Q.size(); i++) {
+                result[i] = Q.poll();
+            }
+            Arrays.sort(result);
+            for (int r : result) System.out.println(r);
         }
 
-        for (int i = 0; i < n; i++) {
-            int count = 0;
-            for (int j = 0; j < k; j++) {
-                if (arr[i][j] == 0) count++;
-            }
-            if (count >= k) answer++;
-            int lt = 0;
-            for (int l = k; l < m; l++) {
-                if (arr[i][l] == 0) count++;
-                if (arr[i][lt] == 0) count--;
-                if (count >= k) answer++;
-                lt++;
-            }
-        }
+    }
 
-        System.out.println(answer);
+    public static void BFS(int x) {
+        Q.offer(x);
+        visit[x] = true;
+        int L = 0;
+        while (!Q.isEmpty()) {
+            int size = Q.size();
+            for (int i = 0; i < size; i++) {
+                int cx = Q.poll();
+                for (int j = 1; j <= n; j++) {
+                    if (arr[cx][j] == 1 && !visit[j]) {
+                        visit[j] = true;
+                        Q.offer(j);
+                    }
+                }
+            }
+            L++;
+            if (L == k) return;
+        }
     }
 }
