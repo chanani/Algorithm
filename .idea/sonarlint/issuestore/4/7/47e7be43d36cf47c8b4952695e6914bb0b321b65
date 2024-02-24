@@ -1,9 +1,0 @@
-
-h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û±û8É–ÅÙÈ1
-D
-java:S1172
-"(Remove this unused method parameter "n".(õÇä8Ï–ÅÙÈ1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜á°­ÿÿÿÿÿ8Ó–ÅÙÈ1
-V
-java:S2864"4Iterate over the "entrySet" instead of the "keySet".(å©…Ğùÿÿÿÿ8Ñ–ÅÙÈ1
-U	java:S106#"9Replace this use of System.out or System.err by a logger.(†³“î8¿÷ÑÙÈ1
