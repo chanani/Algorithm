@@ -1,41 +1,62 @@
 import java.util.*;
 public class Main{
-    public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
-        while(true){
-            String answer = "yes";
-            Stack<Character> stack = new Stack<>();
-            String str = scan.nextLine();
-            if(str.length() == 1 && str.equals(".")) break;
-            for(char x : str.toCharArray()){
-                if(stack.isEmpty()){
-                    if(x == ']' || x == ')') {
-                        answer = "no";
-                        break;
+    static int[] mx = {-1,-1,-1,0,0,1,1,1};
+    static int[] my = {-1,0,1,-1,1,-1,0,1};
+    static int[][] arr;
+    static boolean[][] visit;
+    static boolean[][] top;
+    static int n, m, answer;
+    static Queue<int[]> Q = new LinkedList<>();
+    public static void BFS(int x, int y){
+        visit[x][y] = true;
+        Q.offer(new int[]{x, y});
+        ArrayList<int[]> topList = new ArrayList<>();
+        while(!Q.isEmpty()){
+            int[] ca = Q.poll();
+            for(int i = 0; i < 8; i++){
+                int nx = ca[0] + mx[i];
+                int ny = ca[1] + my[i];
+                if(nx >= 0 && nx < n && ny >= 0 && ny < m && !visit[nx][ny]){
+                    if(arr[nx][ny] > arr[ca[0]][ca[1]]) return;
+                    else if(arr[nx][ny] == arr[ca[0]][ca[1]]){
+                        Q.offer(new int[]{nx, ny});
+                        topList.add(new int[]{nx, ny});
                     }
-                    else if (x == '[' || x == '(') stack.push(x);
-                } else {
-                    if (x == '[' || x == '(') stack.push(x);
-                    else {
-                        if(x == ']') {
-                            if(stack.peek() == '[') stack.pop();
-                            else {
-                                answer = "no";
-                                break;
-                            }
-                        } else if (x == ')'){
-                            if(stack.peek() == '(') stack.pop();
-                            else {
-                                answer = "no";
-                                break;
-                            }
-                        }
-                    }
+                    visit[nx][ny] = true;
                 }
             }
-            if(stack.size() != 0) answer = "no";
-            System.out.println(answer);
         }
+        for(int i = 0; i < topList.size(); i++){
+            int[] ca = topList.get(i);
+            top[ca[0]][ca[1]] = true;
+        }
+
+    }
+
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        n = scan.nextInt();
+        m = scan.nextInt();
+        arr = new int[n][m];
+        visit = new boolean[n][m];
+        top = new boolean[n][m];
+        int answer = 0;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                arr[i][j] = scan.nextInt();
+            }
+        }
+
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(arr[i][j] != 0 && !visit[i][j]){
+                    answer++;
+                    BFS(i, j);
+                }
+            }
+        }
+
+        System.out.println(answer);
 
     }
 }
