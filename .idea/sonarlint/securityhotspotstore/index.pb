@@ -23,8 +23,6 @@ X
 (src/inflearn/q01_string/Inflearn1_7.java,3/8/38bf1b4535226f84b5095667bc32fd6a19e55530
 Y
 )src/inflearn/q01_string/Inflearn1_12.java,7/9/7937c3e6f57d99ea4e0d450b4298ae3bdc6a6074
-W
-'src/inflearn/q02_array/Inflearn2_7.java,3/0/307dac3a0b285ac428d93c0187fcb2d4b1b9d2ed
 X
 (src/inflearn/q02_array/Inflearn2_10.java,5/b/5bd18634336e3572f113be63e8427042edd28a67
 a
@@ -99,8 +97,6 @@ m
 =src/inflearn/q08_DFS_BFS/Inflearn8_2_바둑이승차_DFS.java,1/9/19f4df79c81719a1d68ca46bec2c5ba8d409db4e
 W
 'src/inflearn/q02_array/Inflearn2_1.java,4/1/418473fc6670af84d2978a9cbeb36cbba41c63b4
-W
-'src/inflearn/q02_array/Inflearn2_5.java,b/3/b3394233d21165cc64554495f7650167a8be4173
 q
 Asrc/inflearn/q03_two_pointers_and_Sliding_window/Inflearn3_1.java,d/5/d5df4481c42af6d28a371577f1465308236940e9
 q
@@ -127,3 +123,5 @@ h
 8src/inflearn/q07_graph/Inflearn7_6_부분집합_DFS.java,0/5/05d047d99d44ad116572e0050ee95445664e1402
 j
 :src/inflearn/q08_DFS_BFS/Inflearn8_4_중복순열_DFS.java,6/1/61ee57af93521579f925dd4c3e60b6d895858c5a
+W
+'src/inflearn/q02_array/Inflearn2_7.java,3/0/307dac3a0b285ac428d93c0187fcb2d4b1b9d2ed

@@ -2,7 +2,7 @@ package inflearn.q08_DFS_BFS;
 
 import java.util.Scanner;
 
-public class Inflearnn8_10_미로탐색_DFS {
+public class Inflearn8_10_미로탐색_DFS {
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
     static int[][] board;
